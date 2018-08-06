@@ -1,0 +1,64 @@
+body {
+  background-image: url('images/generic-money-bg.jpg');
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+.clock {
+  font-family:'digital-clock-font';
+}
+.title {
+  font-family: 'title-font';
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+.real-time-data {
+  font-size: 20px;
+}
+
+.app {
+  text-align: center;
+}
+
+.app-container {
+  font-size: large;
+  margin: auto;
+  width: 50%;
+}
+.app-paper {
+  padding: 7px;
+  margin-top: 10px;
+}
+
+.form-paper {
+  padding: 10px 40px;
+}
+
+.data-paper {
+  padding: 40px;
+}
+
+@font-face{
+  font-family:'digital-clock-font';
+  src: url('fonts/digital.ttf');
+}
+
+@font-face {
+  font-family: 'title-font';
+  src: url('./fonts/galderglynn.ttf');
+}
+
+.footer {
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:30px;
+  width:100%;
+  background:#fff;
+  padding-top: 10px;
+}
+
